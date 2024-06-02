@@ -1,0 +1,106 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="rohit" tools:ignore="TypographyDashes">Developed By– Rohit Gupta\nCourse– BCA (2019-2022) Student of TERI College</string>
+
+    <string name="app_name">TERI NOTES HUB</string>
+    <string name="head">TERI BCA Notes</string>
+    <string name="bca_first">BCA 1st Semester</string>
+    <string name="bca_second">BCA 2nd Semester</string>
+    <string name="bca_third">BCA 3rd Semester</string>
+    <string name="bca_fourth">BCA 4th Semester</string>
+    <string name="books">Course Books</string>
+    <string name="papers">Question Papers</string>
+
+    <string name="about">Faculty Members</string>
+    <string name="hod">HOD- Dr. Ajit Pratap Singh\nSubject Lecturer- Computer Organisation </string>
+    <string name="drs">Mr. Durgesh Kumar Singh\nSubject Lecturer- C, C++, Java, Web Design</string>
+    <string name="ajs">Mr. Ajatshatru Singh\nSubject Lecturer- POS</string>
+    <string name="scg">Mr. Subhash Chandra Gupta\nSubject Lecturer- Data Structure</string>
+    <string name="bb">Mr. Bipin Bihari\nSubject Lecturer- FIT, SAD, SE</string>
+    <string name="kpg">Mr. Kamla Prasad Gupta\nSubject Lecturer- DM, CBNST</string>
+    <string name="sps"><![CDATA[Mr. Satya Prakash Shrivastava\nSubject Lecturer- PCS,  .Net&C#]]></string>
+
+
+    <string name="pcs">Personal Computer Software-101</string>
+    <string name="co">Computer Organisation-102</string>
+    <string name="fit">Fundamental Of Information Technology-104</string>
+    <string name="c_language">Programming Principals And C Language-103</string>
+
+    <string name="dm">Discrete Mathematics-204</string>
+    <string name="dfsuc">Data And File Structure Using C-203</string>
+    <string name="sad">System Analysis And Design-202</string>
+    <string name="cpp">Object Modeling &amp; C++ Programming-201</string>
+
+    <string name="cbnst">Computer Based Numerical And Statistical Techniques-301</string>
+    <string name="se">Software Engineering-302</string>
+    <string name="pos">Principals Of Operating System-303</string>
+    <string name="java">Java Programming-304</string>
+
+    <string name="daa">Design &amp; Analysis Of Algorithm-401</string>
+    <string name="dbms">Database Management System-402</string>
+    <string name="ot">Optimization Techniques-403</string>
+    <string name="cga">Computer Graphics &amp; Animation-404</string>
+
+
+    <string name="java_unit_1">UNIT-1: Introduction to Java and Classes</string>
+    <string name="java_unit_2">UNIT-2: Arrays, Strings and Inheritance</string>
+    <string name="java_unit_3">UNIT-3: Exception Handling and Multithreaded Programming</string>
+    <string name="java_unit_4">UNIT-4: Input/Output and Networking</string>
+    <string name="java_unit_5">UNIT-5: Event Handling</string>
+
+    <string name="cbnst_unit_1">UNIT-1: Floating Point Arithmetic and Iterative Methods</string>
+    <string name="cbnst_unit_2">UNIT-2: Simultaneous Linear Equations</string>
+    <string name="cbnst_unit_3">UNIT-3: Interpolation and approximation, Interpolation with unequal intervals</string>
+    <string name="cbnst_unit_4">UNIT-4: Statistics</string>
+    <string name="cbnst_unit_5">UNIT-5: Correlation</string>
+
+    <string name="se_unit_1">UNIT-1: Introduction</string>
+    <string name="se_unit_2">UNIT-2: Software requirement specification</string>
+    <string name="se_unit_3">UNIT-3: Software Design</string>
+    <string name="se_unit_4">UNIT-4: Coding</string>
+    <string name="se_unit_5">UNIT-5: Software Project Management</string>
+
+    <string name="pos_unit_2">UNIT-1: Concurrent process</string>
+    <string name="pos_unit_3">UNTI-2: CPU scheduling</string>
+    <string name="pos_unit_4">UNIT-3: Memory Management</string>
+    <string name="pos_unit_5">UNIT-4: UNIX/LINUX</string>
+    <string name="img">img</string>
+    <string name="focoa"><![CDATA[Fundamentals of Computer Organisation & Architecture]]></string>
+    <string name="csa">Computer System Architecture</string>
+    <string name="upic">Understanding Pointers In C</string>
+    <string name="pwc">Programming With C</string>
+    <string name="lus">Let Us C Y. Kanetkar</string>
+    <string name="sadad"><![CDATA[System Analysis, Design & Development]]></string>
+    <string name="gtwaia"><![CDATA[Graph Theory With Algorithms & Its Applications]]></string>
+    <string name="psdsauc"><![CDATA[Problem solving in Data Structures & Algorithms Using C]]></string>
+    <string name="dsame"><![CDATA[Data Structures & Algorithms Made Easy]]></string>
+    <string name="oopwc">Object Oriented Programming With C++</string>
+    <string name="cbnstb"><![CDATA[Computer Based Numerical & Statical Techniques]]></string>
+    <string name="anaab">Applied Numerical Analysis</string>
+    <string name="aiase">An Integrated Approach To Software Engineering</string>
+    <string name="fose">Fundamental of Software Engineering</string>
+    <string name="seafa">Software Engineering A Practitioner\'s Approach</string>
+    <string name="osct">Operating System Concepts</string>
+    <string name="most">Modern Operating Systems</string>
+    <string name="oomad"><![CDATA[Object-Oriented Modeling & Design]]></string>
+    <string name="jtcr">Java The Complete Reference</string>
+    <string name="aitds">An Introduction To DataBase System</string>
+    <string name="focat">Fundamentals Of Computer Algorithms</string>
+    <string name="fods">Fundamentals Of Database Systems</string>
+    <string name="orait">Operations, Research and Introductions</string>
+    <string name="itat">Introductions To Algorithms</string>
+    <string name="ques">Question Papers</string>
+    <string name="dtft">Define the following terms:</string>
+    <string name="latq">Long Answer Type Questions:</string>
+    <string name="satq">Short Answer Type Questions:</string>
+    <string name="vsatq">Very Short Answer Type Questions:</string>
+    <string name="pcs_assign2">PCS Assignment- 2</string>
+    <string name="psc_assign1">PCS Assignment- 1</string>
+    <string name="ques_of_c">C Language\'s Questions Paper</string>
+    <string name="ques_pcs">PCS\'s Question Paper</string>
+    <string name="c_assignment">C ASSIGNMENT</string>
+    <string name="question_paper">QUESTION PAPER</string>
+    <string name="assignment">Assignment</string>
+    <string name="bca_5th_semester">BCA 5th Semester</string>
+    <string name="bca_6th_semester">BCA 6th Semester</string>
+    <string name="bca_4th_semester">BCA 4TH SEMESTER</string>
+</resources>

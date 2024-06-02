@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img">
+
+    <RelativeLayout
+        android:id="@+id/second_semester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".second_semester">
+
+
+        <Button
+            android:id="@+id/first_sem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="75dp"
+            android:background="@drawable/gradient"
+            android:padding="10dp"
+            android:shadowColor="#FF0000"
+            android:text="@string/cpp"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#4EA802"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/second_sem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/first_sem"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="75dp"
+            android:background="@drawable/gradient"
+            android:padding="10dp"
+            android:shadowColor="#FF0000"
+            android:text="@string/sad"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#52B500"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/third_sem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second_sem"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="75dp"
+            android:background="@drawable/gradient"
+            android:padding="10dp"
+            android:shadowColor="#FF0000"
+            android:text="@string/dfsuc"
+            android:textColor="#F8F4F4"
+            android:textColorHighlight="#469702"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/fourth_sem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/third_sem"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="75dp"
+            android:background="@drawable/gradient"
+            android:padding="10dp"
+            android:shadowColor="#FF0000"
+            android:text="@string/dm"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#4CA303"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ques_paper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fourth_sem"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="75dp"
+            android:layout_marginBottom="75dp"
+            android:background="@drawable/gradient"
+            android:padding="10dp"
+            android:shadowColor="#FF0000"
+            android:text="@string/papers"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#4CA303"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+    </RelativeLayout>
+</ScrollView>

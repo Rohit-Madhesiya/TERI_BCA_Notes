@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/first_sem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="68dp"
+            android:background="@drawable/gradient"
+            android:shadowColor="#FF0000"
+            android:text="@string/bca_first"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#4EA802"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/second_sem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/first_sem"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="66dp"
+            android:background="@drawable/gradient"
+            android:shadowColor="#FF0000"
+            android:text="@string/bca_second"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#52B500"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/third_sem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/second_sem"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="66dp"
+            android:background="@drawable/gradient"
+            android:shadowColor="#FF0000"
+            android:text="@string/bca_third"
+            android:textColor="#F8F4F4"
+            android:textColorHighlight="#469702"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/fourth_sem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/third_sem"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="66dp"
+            android:background="@drawable/gradient"
+            android:shadowColor="#FF0000"
+            android:text="@string/bca_fourth"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#4CA303"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/fifth_sem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/fourth_sem"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="66dp"
+            android:background="@drawable/gradient"
+            android:shadowColor="#FF0000"
+            android:text="@string/bca_5th_semester"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#4CA303"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/sixth_sem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/fifth_sem"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="66dp"
+            android:background="@drawable/gradient"
+            android:shadowColor="#FF0000"
+            android:text="@string/bca_6th_semester"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#4CA303"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/book"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/fourth_sem"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="75dp"
+            android:background="@drawable/gradient"
+            android:shadowColor="#FF0000"
+            android:text="@string/books"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#4FA804"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+    </RelativeLayout>
+</ScrollView>
